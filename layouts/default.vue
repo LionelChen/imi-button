@@ -141,6 +141,12 @@
             </v-btn>
           </div>
           <div>
+            <span>Powered by</span>
+            <a href="https://www.vercel.com/?utm_source=korone-button" target="_blank" rel="noreferrer">
+              <img :src="vercel_logo" alt="vercel" height="16px" />
+            </a>
+          </div>
+          <div>
             <p>{{ $t('site.footer.content') }}</p>
           </div>
         </div>
@@ -235,6 +241,10 @@ export default {
   computed: {
     current_locale() {
       return this.$i18n.locale;
+    },
+    vercel_logo() {
+      const mode = this.$vuetify.theme.dark ? 'dark' : 'light';
+      return '/img/vercel/' + mode + '.svg';
     }
   },
   mounted() {
