@@ -1,8 +1,6 @@
 import colors from 'vuetify/es5/util/colors';
 
 const is_production = process.env.NODE_ENV === 'production';
-const production_url = is_production ? 'https://korone.lonelyion.com/' : '/_nuxt/';
-const manifest_url = is_production ? '/' : '/_nuxt/';
 
 export default {
   mode: 'universal',
@@ -60,7 +58,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    ['@nuxtjs/pwa', { workbox: { publicPath: production_url }, manifest: { publicPath: manifest_url } }],
+    '@nuxtjs/pwa',
     '@nuxtjs/axios',
     '@nuxtjs/markdownit',
     '@nuxtjs/sitemap'
@@ -133,7 +131,6 @@ export default {
    ** Build configuration
    */
   build: {
-    publicPath: production_url,
     optimizeCSS: is_production,
     extractCSS: is_production,
     extend(config, ctx) {
