@@ -60,7 +60,7 @@
 翻译：
 
 - English: [Hololive Moments on YouTube](https://www.youtube.com/channel/UCK4adPCSc8U1mhaJYbzZ-7w)
-- 日本語: Github [かずえもん](https://github.com/kazuemon)
+- 日本語: Symmetry.Chaos, 噬魂韩植, 草Bot
 
 特别感谢：
 
