@@ -26,7 +26,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'ころねボタン,KORONE BUTTON,狐按钮,hololive,Inugami Korone,戌神ころね,戌神沁音,沁音,小狐狸,屑狐狸,喵喵狐,语音按钮,ボイスボタン'
+          'ころねボタン,KORONE BUTTON,沁音按钮,狗按钮,hololive,Inugami Korone,戌神ころね,戌神沁音,沁音,面包狗,饭团猫,狗子,语音按钮,ボイスボタン'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
