@@ -3,12 +3,13 @@
     "title": "狗按钮",
     "description": "戌神沁音语音按钮",
     "index": "主页",
+    "links": "友情链接",
     "about": "关于",
     "switch_dark_mode": "夜间模式开关",
     "switch_language": "切换语言",
     "footer": {
       "mbd": "戌神沁音的手指面包店",
-      "oruyanke": "狐笋组",
+      "oruyanke": "御宅白狐的狐笋之林",
       "content": "本站为爱好者作品，和Hololive官方没有关联，STAFF名单以及项目参与方式请查看\"关于\"页面"
     }
   },
@@ -16,6 +17,7 @@
     "activity": "直播动态",
     "schedule": "计划",
     "on_air": "正在直播",
+    "loading": "直播动态获取中...",
     "no_schedule": "还没有发现正在或计划中的直播"
   },
   "control": {
@@ -34,19 +36,5 @@
     "title": "您正在访问开发模式的站点",
     "desc": "开发模式下，狗按钮的测试版可能包含漏洞、错误或其他问题。开发模式由GitHub仓库的dev分支提供，我们不提供任何支持，对任何问题或故障也不提供任何明示或暗示保证或赔偿。实际新功能以正式版上线为准。",
     "to_stable": "点此转到正式版页面"
-  },
-  "links": {
-    "title": "友情链接",
-    "collection": "VTuber按钮合集",
-    "mio": "狼按钮",
-    "fubuki": "狐按钮",
-    "okayu": "猫按钮",
-    "peko": "Peko按钮",
-    "aqua": "夸按钮",
-    "matsuri": "祭按钮",
-    "ayame": "余按钮",
-    "suisei": "星按钮",
-    "towa": "永远按钮",
-    "echo": "桃按钮"
   }
 }

@@ -59,6 +59,14 @@
       </div>
       <v-divider />
       <v-list>
+        <v-list-item dense to="/links" router exact>
+          <v-list-item-action>
+            <v-icon>{{ icons.play_list_star }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t('site.links') }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item dense to="/about" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.code_tags }}</v-icon>
@@ -205,7 +213,16 @@ a {
 </style>
 
 <script>
-import { mdiApps, mdiCodeTags, mdiBrightness2, mdiTranslate, mdiGithub, mdiNewspaper, mdiAlphaBBox } from '@mdi/js';
+import {
+  mdiApps,
+  mdiCodeTags,
+  mdiBrightness2,
+  mdiTranslate,
+  mdiGithub,
+  mdiNewspaper,
+  mdiAlphaBBox,
+  mdiPlaylistStar
+} from '@mdi/js';
 export default {
   data() {
     return {
@@ -216,7 +233,8 @@ export default {
         translate: mdiTranslate,
         github: mdiGithub,
         newspaper: mdiNewspaper,
-        alpha_b_box: mdiAlphaBBox
+        alpha_b_box: mdiAlphaBBox,
+        play_list_star: mdiPlaylistStar
       },
       drawer: false,
       fixed: false,
