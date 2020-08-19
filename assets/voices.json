@@ -717,6 +717,42 @@
             "en": "Neee",
             "Romaji": "neee"
           }
+        },
+        {
+          "name": "hey brother",
+          "path": "5.通用/hey brother.mp3",
+          "description": {
+            "zh": "嘿 老哥",
+            "en": "Hey, brother!",
+            "ja": "へぃ、ブラザー"
+          }
+        },
+        {
+          "name": "拜拜，欧尼酱们",
+          "path": "5.通用/拜拜，欧尼酱们.mp3",
+          "description": {
+            "zh": "拜拜 大哥哥们",
+            "en": "Bye, my brothers.",
+            "ja": "じゃね、お兄ちゃんたち"
+          }
+        },
+        {
+          "name": "抖M狗",
+          "path": "5.通用/抖M狗.mp3",
+          "description": {
+            "zh": "我是抖M",
+            "en": "I'm a do M",
+            "ja": "僕ドM"
+          }
+        },
+        {
+          "name": "呐，欧尼酱",
+          "path": "5.通用/呐，欧尼酱.mp3",
+          "description": {
+            "zh": "呐，欧尼酱",
+            "en": "Hey, Oni Chan",
+            "ja": "ねぇ、お兄ちゃん"
+          }
         }
       ]
     },
