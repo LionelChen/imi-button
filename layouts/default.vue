@@ -134,13 +134,13 @@
             </span>
             <span>
               &
-              <a href="https://github.com/oruyanke" target="_blank" rel="noreferrer">
+              <a href="https://github.com/voosc" target="_blank" rel="noreferrer">
                 {{ $t('site.footer.oruyanke') }}
               </a>
             </span>
             <v-btn
               icon
-              href="https://github.com/oruyanke/korone-button"
+              href="https://github.com/voosc/korone-button"
               target="_blank"
               style="vertical-align: middle;"
               rel="noreferrer"
