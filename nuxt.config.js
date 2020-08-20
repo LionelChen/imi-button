@@ -99,7 +99,7 @@ export default {
     workbox: {
       runtimeCaching: [
         {
-          urlPattern: 'https://cdn.jsdelivr.net/gh/voosc/fubuki-button@master/static/voices/*'
+          urlPattern: 'https://cdn.jsdelivr.net/gh/voosc/korone-button@master/static/voices/*'
         }
       ]
     }
