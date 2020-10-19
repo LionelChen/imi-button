@@ -1,5 +1,9 @@
 # 狗按钮 / KORONE-BUTTON
 
+**鉴于Cover株式会社及其旗下Hololive对桐生可可事件的处理方式极为不专业不妥当，三番五次越过我们的底线，我们决定停止更新这个项目。**
+
+**This project has been paused since Cover Crop and its Hololive Production did exceed out limit with Taiwan Province, without a proper solution.**
+
 项目地址：<https://korone.icu>
 
 音源来自VTuber戌神沁音
