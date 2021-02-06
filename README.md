@@ -41,7 +41,6 @@
 - GitHub [孤单离子](https://github.com/lonelyion)
 - GitHub [Nyaasu](https://github.com/Nyaasu66)
 
-
 ## 协议
 
 音频部分: [Hololive 二次创作条款](https://www.hololive.tv/terms) (只有日语).
