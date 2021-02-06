@@ -19,72 +19,12 @@
           }
         },
         {
-          "name": "啊啊啊啊啊 啊啊啊啊啊",
-          "path": "1.片头/啊啊啊啊啊 啊啊啊啊啊.mp3",
+          "name": "kimo",
+          "path": "1.片头/kimo.mp3",
           "description": {
-            "zh": "啊啊啊啊啊 啊啊啊啊啊",
-            "ja": "あぁぁぁぁ　あぁぁぁぁ",
-            "en": "AAAAAAAAAAAAAAAAAAAAAAAAA",
-            "Romaji": "AAAAAAAAAAAAAAAAAAAAAAAAA"
-          }
-        },
-        {
-          "name": "kokodayo",
-          "path": "1.片头/kokodayo.mp3",
-          "description": {
-            "zh": "kokodayo",
-            "ja": "ここだよ",
-            "en": "Here I am~",
-            "Romaji": "Kokodayo~"
-          }
-        },
-        {
-          "name": "mio香一宿你拉哟",
-          "path": "1.片头/mio香一宿你拉哟.mp3",
-          "description": {
-            "zh": "mio香一宿你拉哟",
-            "ja": "ミオしゃ一緒にやろ",
-            "en": "Mio-chan let's play!!!",
-            "Romaji": "Mio-chan issyoniyarou!!!"
-          }
-        },
-        {
-          "name": "啊啦啦啦啦",
-          "path": "1.片头/啊啦啦啦啦.mp3",
-          "description": {
-            "zh": "啊啦啦啦啦",
-            "ja": "あらららら",
-            "en": "Alalalala!!!",
-            "Romaji": "Arararara!!!"
-          }
-        },
-        {
-          "name": "大濑良",
-          "path": "1.片头/大濑良.mp3",
-          "description": {
-            "zh": "大濑良",
-            "ja": "オオセラ",
-            "en": "Osera!!!",
-            "Romaji": "Osera!!!"
-          }
-        },
-        {
-          "name": "毁灭吧人类",
-          "path": "1.片头/毁灭吧人类.mp3",
-          "description": {
-            "zh": "毁灭吧人类",
-            "ja": "滅びろ　人類とも",
-            "en": "Doom, human beings!",
-            "Romaji": "Horobirou, jinrui domo"
-          }
-        },
-        {
-          "name": "阿嚏",
-          "path": "1.片头/阿嚏.mp3",
-          "description": {
-            "zh": "阿嚏",
-            "ja": "ハックション",
-            "en": "*Sneeze*",
+            "zh": "kimo",
+            "ja": "kimo",
+            "en": "kimo",
             "Romaji": ""
           }
         }

@@ -1,11 +1,5 @@
 # 狗按钮 / KORONE-BUTTON
 
-**鉴于Cover株式会社及其旗下Hololive对桐生可可事件的处理方式极为不专业不妥当，三番五次越过我们的底线，我们决定停止更新这个项目。**
-
-**This project has been paused since Cover Crop and its Hololive Production did exceed out limit with Taiwan Province, without a proper solution.**
-
-项目地址：<https://korone.icu>
-
 音源来自VTuber戌神沁音
 
 相关链接：
@@ -31,12 +25,6 @@
 
 如果需要对现有音频进行修改，建议将原音频文件删除，重新命名一个新文件，这样可以避免浏览器缓存问题。
 
-### 参与翻译
-
-请帮助进行日语和英语的翻译！
-
-网页的翻译在`assets/locales/`中的以三个语音命名的json文件中，音频信息的翻译在`assets/voices.json`中对应的字段。
-
 ### 参与网页开发
 
 本项目使用Vue + NuxtJS + Vuetify框架进行开发，要部署本地开发环境，请先安装最新版的Node与Yarn包管理器。
@@ -53,22 +41,6 @@
 - GitHub [孤单离子](https://github.com/lonelyion)
 - GitHub [Nyaasu](https://github.com/Nyaasu66)
 
-音频剪辑：
-
-- Bilibili [戌神沁音Official](https://space.bilibili.com/412135619)
-- Bilibili [戌神沁音的手指面包店](https://space.bilibili.com/45070033)
-- Bilibili [SymmetryChaos](https://space.bilibili.com/413787551)
-- Bilibili [BF天下](https://space.bilibili.com/6433566)
-- 夜月赤
-
-翻译：
-
-- English: [Hololive Moments on YouTube](https://www.youtube.com/channel/UCK4adPCSc8U1mhaJYbzZ-7w)
-- 日本語: Symmetry.Chaos, 噬魂韩植, 草Bot
-
-特别感谢：
-
-- Bilibili [御宅白狐的狐笋之林](https://space.bilibili.com/314977548)
 
 ## 协议
 
