@@ -1,0 +1,40 @@
+{
+  "site": {
+    "title": "Korone Button",
+    "description": "Vocal buttons for Inugami Korone\n",
+    "index": "Home",
+    "links": "Links",
+    "about": "About",
+    "switch_dark_mode": "Switch Dark Mode",
+    "switch_language": "Switch Language",
+    "footer": {
+      "mbd": "Inugami Korone's Finger Bakery",
+      "oruyanke": "Oruyanke Team",
+      "content": "This site is a fan work and is not associated with the Hololive official. For staff and more information, please see \"About\" page."
+    }
+  },
+  "live": {
+    "activity": "Live Board",
+    "schedule": "Scheduled at ",
+    "on_air": "LIVE NOW",
+    "loading": "Fetching live data...",
+    "no_schedule": "No scheduled live is found."
+  },
+  "control": {
+    "self": "Player Control",
+    "pick_one": "Randomly Pick One",
+    "stop": "Stop Playing",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "overlap": "Overlap Mode",
+    "random": "Random Mode",
+    "repeat": "Repeat Mode",
+    "full_name": "Inugami Korone",
+    "overlap_title": "Multiple Korone Voices"
+  },
+  "dev": {
+    "title": "Development Mode",
+    "desc": "Dev mode may contains errors or vulnerability. We absolutely DO NOT guarantee any support and warranty. The actual new features are subject to the official version being launched.",
+    "to_stable": "Return to Official version"
+  }
+}
