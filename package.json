@@ -1,8 +1,8 @@
 {
-  "name": "korone-button",
-  "version": "1.3.2",
-  "description": "Voice Button for Inugami Korone",
-  "author": "Oruyanke Team",
+  "name": "imi-button",
+  "version": "1.0.0",
+  "description": "Voice Button for Imi",
+  "author": "Kong",
   "private": true,
   "scripts": {
     "dev": "nuxt",
