@@ -3,7 +3,7 @@
     :href="'https://www.youtube.com/watch?v=' + videoKey"
     target="_blank"
     rel="noreferrer"
-    style="text-decoration: none;"
+    style="text-decoration: none"
   >
     {{ content }}
   </a>

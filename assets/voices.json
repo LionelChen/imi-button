@@ -1,9 +1,9 @@
 {
   "groups": [
     {
-      "group_name": "片头",
+      "group_name": "test",
       "group_description": {
-        "zh": "片头",
+        "zh": "test",
         "ja": "タイトルバック",
         "en": "Intro"
       },
