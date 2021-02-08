@@ -59,34 +59,6 @@
       </v-btn>
     </v-speed-dial>
     <v-flex xs12 sm8 md6>
-      <!-- 直播面板 -->
-      <v-card :loading="lives_loading">
-        <v-card-title>
-          <v-icon class="primary--text" :class="dark_text" style="margin-right: 8px">
-            {{ icons.clock_outline }}
-          </v-icon>
-          {{ $t('live.activity') }}
-        </v-card-title>
-        <v-card-text>
-          <!-- 正在直播 -->
-          <div v-for="live in lives" :key="live.id">
-            <div v-if="live.title.length" :class="dark_text">
-              <span class="warning--text">{{ $t('live.on_air') }}</span>
-              <youtube-link :video-key="live.yt_video_key" :content="live.title" class="error--text" />
-            </div>
-          </div>
-          <!-- 计划中的直播 -->
-          <div v-for="live in upcoming_lives" :key="live.id">
-            <div v-if="live.title.length" :class="dark_text">
-              <span>{{ $t('live.schedule') + format_time(live.live_schedule) }}</span>
-              <youtube-link :video-key="live.yt_video_key" :content="live.title" />
-            </div>
-          </div>
-          <div v-if="lives.length === 0 && upcoming_lives.length === 0">
-            <p>{{ lives_loading ? $t('live.loading') : $t('live.no_schedule') }}</p>
-          </div>
-        </v-card-text>
-      </v-card>
       <!-- 对每个按钮组生成一个Card -->
       <v-card v-for="group in groups" :key="group.name">
         <v-card-title class="headline" :class="dark_text">
@@ -135,7 +107,6 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 import voice_lists from '~/assets/voices.json';
 import DevWarning from '../components/DevWarning';
 import VoiceBtn from '../components/VoiceBtn';
-import YoutubeLink from '../components/YoutubeLink';
 import {
   mdiClose,
   mdiPlay,
@@ -150,8 +121,7 @@ import {
 export default {
   components: {
     DevWarning,
-    VoiceBtn,
-    YoutubeLink
+    VoiceBtn
   },
   data() {
     return {

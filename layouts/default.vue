@@ -248,8 +248,8 @@ export default {
       external_cn: [
         {
           icon: 'alpha_b_box',
-          title: '戌神沁音的手指面包店',
-          to: 'https://space.bilibili.com/45070033'
+          title: '二创组PlaceHolder',
+          to: 'https://space.bilibili.com/678033561'
         }
       ]
     };
