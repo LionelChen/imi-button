@@ -180,7 +180,7 @@ export default {
       //if (process.env.NODE_ENV === 'production' && navigator.onLine)
       //  return 'https://cdn.jsdelivr.net/gh/voosc/korone-button@master/static/voices/';
       //else return '/voices/';
-      return '/voices';
+      return '/voices/';
     },
     dark_text() {
       return {
