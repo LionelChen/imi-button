@@ -177,9 +177,10 @@ export default {
   },
   computed: {
     voice_host() {
-      if (process.env.NODE_ENV === 'production' && navigator.onLine)
-        return 'https://cdn.jsdelivr.net/gh/voosc/korone-button@master/static/voices/';
-      else return '/voices/';
+      //if (process.env.NODE_ENV === 'production' && navigator.onLine)
+      //  return 'https://cdn.jsdelivr.net/gh/voosc/korone-button@master/static/voices/';
+      //else return '/voices/';
+      return '/voices';
     },
     dark_text() {
       return {
