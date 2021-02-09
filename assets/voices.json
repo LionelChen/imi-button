@@ -8,11 +8,31 @@
       "voice_list": [
         {
           "name": "kimo",
-          "path": "1.片头/kimo.mp3",
+          "path": "3.台词回/kimo.mp3",
           "description": {
             "zh": "kimo",
             "ja": "kimo",
             "en": "kimo",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "いっぺん…死んでみる？",
+          "path": "3.台词回/你要尝试死一次吗.mp3",
+          "description": {
+            "zh": "いっぺん…死んでみる？",
+            "ja": "いっぺん…死んでみる？",
+            "en": "いっぺん…死んでみる？",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "o泡",
+          "path": "3.台词回/O泡.mp3",
+          "description": {
+            "zh": "o泡果奶",
+            "ja": "o泡果奶",
+            "en": "o泡果奶",
             "Romaji": ""
           }
         }
