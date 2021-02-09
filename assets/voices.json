@@ -35,6 +35,26 @@
             "en": "o泡果奶",
             "Romaji": ""
           }
+        },
+        {
+          "name": "nA",
+          "path": "3.台词回/NA.mp3",
+          "description": {
+            "zh": "nA",
+            "ja": "nA",
+            "en": "nA",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "nA↑",
+          "path": "3.台词回/NA_.mp3",
+          "description": {
+            "zh": "nA↑",
+            "ja": "nA↑",
+            "en": "nA↑",
+            "Romaji": ""
+          }
         }
       ]
     },
