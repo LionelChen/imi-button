@@ -1,6 +1,34 @@
 {
   "groups": [
     {
+      "group_name": "nA!",
+      "group_description": {
+        "zh": "nA!"
+      },
+      "voice_list": [
+        {
+          "name": "nA",
+          "path": "1.nA/NA.mp3",
+          "description": {
+            "zh": "nA",
+            "ja": "nA",
+            "en": "nA",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "nA↑",
+          "path": "1.nA/NA_.mp3",
+          "description": {
+            "zh": "nA↑",
+            "ja": "nA↑",
+            "en": "nA↑",
+            "Romaji": ""
+          }
+        }
+      ]
+    },
+    {
       "group_name": "台词回",
       "group_description": {
         "zh": "台词回"
@@ -37,22 +65,12 @@
           }
         },
         {
-          "name": "nA",
-          "path": "3.台词回/NA.mp3",
+          "name": "你们的心就由Imi收下啦",
+          "path": "3.台词回/收下了.mp3",
           "description": {
-            "zh": "nA",
-            "ja": "nA",
-            "en": "nA",
-            "Romaji": ""
-          }
-        },
-        {
-          "name": "nA↑",
-          "path": "3.台词回/NA_.mp3",
-          "description": {
-            "zh": "nA↑",
-            "ja": "nA↑",
-            "en": "nA↑",
+            "zh": "你们的心就由Imi收下啦",
+            "ja": "你们的心就由Imi收下啦",
+            "en": "你们的心就由Imi收下啦",
             "Romaji": ""
           }
         }
