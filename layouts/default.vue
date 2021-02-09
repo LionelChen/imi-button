@@ -128,14 +128,8 @@
           <div style="vertical-align: middle">
             <span>&copy; {{ new Date().getFullYear() }} </span>
             <span>
-              <a href="https://space.bilibili.com/45070033" target="_blank" rel="noreferrer">
-                {{ $t('site.footer.mbd') }}
-              </a>
-            </span>
-            <span>
-              &
-              <a href="https://github.com/voosc" target="_blank" rel="noreferrer">
-                {{ $t('site.footer.oruyanke') }}
+              <a href="https://space.bilibili.com/678033561" target="_blank" rel="noreferrer">
+                {{ $t('site.footer.kong') }}
               </a>
             </span>
             <v-btn
@@ -149,7 +143,7 @@
             </v-btn>
           </div>
           <div>
-            <span>Powered by</span>
+            <span>Powered by Tencent Serverless Framework</span>
             <a href="https://www.vercel.com/?utm_source=oruyanke&utm_campaign=oss" target="_blank" rel="noreferrer">
               <img :src="vercel_logo" alt="vercel" height="16px" />
             </a>
