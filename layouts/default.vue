@@ -132,20 +132,14 @@
                 {{ $t('site.footer.kong') }}
               </a>
             </span>
-            <v-btn
-              icon
-              href="https://github.com/voosc/korone-button"
-              target="_blank"
-              style="vertical-align: middle"
-              rel="noreferrer"
-            >
+            <v-btn icon href="https://github.com/" target="_blank" style="vertical-align: middle" rel="noreferrer">
               <v-icon>{{ icons.github }}</v-icon>
             </v-btn>
           </div>
           <div>
             <span>Powered by Tencent Serverless Framework</span>
             <a href="https://www.vercel.com/?utm_source=oruyanke&utm_campaign=oss" target="_blank" rel="noreferrer">
-              <img :src="vercel_logo" alt="vercel" height="16px" />
+              <img :src="tencent_logo" alt="vercel" height="16px" />
             </a>
           </div>
           <div>
@@ -252,9 +246,10 @@ export default {
     current_locale() {
       return this.$i18n.locale;
     },
-    vercel_logo() {
-      const mode = this.$vuetify.theme.dark ? 'dark' : 'light';
-      return '/img/vercel/' + mode + '.svg';
+    tencent_logo() {
+      //const mode = this.$vuetify.theme.dark ? 'dark' : 'light';
+      return '/img/tencent/tencent_cloud.png';
+      //return '/img/tencent/' + mode + '.svg';
     }
   },
   mounted() {
