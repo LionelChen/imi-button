@@ -41,7 +41,7 @@
         <v-divider />
         <v-list>
           <v-list-item
-            v-for="item in external_cn"
+            v-for="item in external_link"
             :key="item.to"
             dense
             :href="item.to"
@@ -233,11 +233,16 @@ export default {
           to: 'https://space.bilibili.com/690608694'
         }
       ],
-      external_cn: [
+      external_link: [
         {
           icon: 'alpha_b_box',
-          title: '二创组PlaceHolder',
-          to: 'https://space.bilibili.com/678033561'
+          title: '伊深的时钟八音盒',
+          to: 'https://space.bilibili.com/686331665/'
+        },
+        {
+          icon: 'alpha_b_box',
+          title: '伊深Imi的网易云电台',
+          to: 'http://music.163.com/radio/796641576'
         }
       ]
     };

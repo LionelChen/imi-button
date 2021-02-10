@@ -13,23 +13,23 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'ころねボタン',
+    title: '深按钮',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: '戌神ころねの音声ボタン 戌神沁音语音按钮 Voice button for Inugami Korone'
+        content: '伊深Imi语音按钮'
       },
       {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'ころねボタン,KORONE BUTTON,沁音按钮,狗按钮,hololive,Inugami Korone,戌神ころね,戌神沁音,沁音,面包狗,饭团猫,狗子,语音按钮,ボイスボタン'
+          '伊深Imi, imi, virtuareal, 深按钮'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }]
   },
   /*
    ** Customize the progress-bar color
@@ -96,12 +96,8 @@ export default {
     manifest: {
       start_url: '/?standalone=true'
     },
-    workbox: {
-      runtimeCaching: [
-        {
-          urlPattern: 'https://cdn.jsdelivr.net/gh/voosc/korone-button@master/static/voices/*'
-        }
-      ]
+    icon: {
+      /* icon options */
     }
   },
   markdownit: {
@@ -113,7 +109,7 @@ export default {
   },
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'https://korone.icu',
+    hostname: 'http://imimi.ink',
     routes: [
       {
         url: '/',
