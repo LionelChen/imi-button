@@ -83,6 +83,46 @@
             "en": "Imi是可爱又迷人的正面角色",
             "Romaji": ""
           }
+        },
+        {
+          "name": "什么时候来哄哄imi呀",
+          "path": "3.台词回/什么时候来哄哄imi呀.mp3",
+          "description": {
+            "zh": "什么时候来哄哄imi呀",
+            "ja": "什么时候来哄哄imi呀",
+            "en": "什么时候来哄哄imi呀",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "哄完别人能来哄哄Imi吗",
+          "path": "3.台词回/哄完别人能来哄哄imi嘛.mp3",
+          "description": {
+            "zh": "该哄Imi了",
+            "ja": "该哄Imi了",
+            "en": "该哄Imi了",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "好过分啊",
+          "path": "3.台词回/啊好过分啊.mp3",
+          "description": {
+            "zh": "好过分啊",
+            "ja": "好过分啊",
+            "en": "好过分啊",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "啊——",
+          "path": "3.台词回/啊——.mp3",
+          "description": {
+            "zh": "啊——",
+            "ja": "啊——",
+            "en": "啊——",
+            "Romaji": ""
+          }
         }
       ]
     },
