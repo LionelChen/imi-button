@@ -85,12 +85,12 @@
           }
         },
         {
-          "name": "什么时候来哄哄imi呀",
+          "name": "什么时候来哄哄Imi呀",
           "path": "3.台词回/什么时候来哄哄imi呀.mp3",
           "description": {
-            "zh": "什么时候来哄哄imi呀",
-            "ja": "什么时候来哄哄imi呀",
-            "en": "什么时候来哄哄imi呀",
+            "zh": "什么时候来哄哄Imi呀",
+            "ja": "什么时候来哄哄Imi呀",
+            "en": "什么时候来哄哄Imi呀",
             "Romaji": ""
           }
         },
@@ -179,6 +179,24 @@
           "path": "2.不可以休息噢/drawing.mp3",
           "description": {
             "zh": "你的稿子还没画好..."
+          }
+        }
+      ]
+    },
+    {
+      "group_name": "其他",
+      "group_description": {
+        "zh": "其他"
+      },
+      "voice_list": [
+        {
+          "name": "你打我",
+          "path": "4.其他/你打我.mp3",
+          "description": {
+            "zh": "你打我",
+            "ja": "你打我",
+            "en": "你打我",
+            "Romaji": ""
           }
         }
       ]
