@@ -2,8 +2,10 @@ import colors from 'vuetify/es5/util/colors';
 
 const is_production = process.env.NODE_ENV === 'production';
 
+const STATIC_URL =
+  "https://imibutton-voice-1259477301.cos.ap-guangzhou.myqcloud.com/";
+
 export default {
-  mode: 'universal',
   target: 'static',
   server: {
     port: 80, // default: 3000
@@ -124,6 +126,9 @@ export default {
         lastmod: new Date()
       }
     ]
+  },//腾讯云静态资源托管
+  env: {
+    STATIC_URL: STATIC_URL || '',
   },
   /*
    ** Build configuration
@@ -141,6 +146,10 @@ export default {
           exclude: /(node_modules)/
         });
       }
+      if (!ctx.isDev && STATIC_URL) {
+        config.output.publicPath = STATIC_URL
+      }
+      
     }
   }
 };

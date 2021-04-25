@@ -12,8 +12,15 @@ inputs:
       - .env
   region: ap-guangzhou
   runtime: Nodejs10.15
+  functionConf:
+    timeout: 20
+    memorySize: 256
   apigatewayConf:
     protocols:
       - http
       - https
     environment: release
+  staticConf:
+    cosConf:
+      # 这里是创建的 COS 桶名称
+      bucket: imibutton-voice-1259477301

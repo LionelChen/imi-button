@@ -8,7 +8,7 @@
       "voice_list": [
         {
           "name": "nA",
-          "path": "1.nA/NA.mp3",
+          "path": "1nA/NA.mp3",
           "description": {
             "zh": "nA",
             "ja": "nA",
@@ -18,7 +18,7 @@
         },
         {
           "name": "nA↑",
-          "path": "1.nA/NA_.mp3",
+          "path": "1nA/NA_.mp3",
           "description": {
             "zh": "nA↑",
             "ja": "nA↑",
@@ -36,7 +36,7 @@
       "voice_list": [
         {
           "name": "kimo",
-          "path": "3.台词回/kimo.mp3",
+          "path": "3dialogue/kimo.mp3",
           "description": {
             "zh": "kimo",
             "ja": "kimo",
@@ -46,7 +46,7 @@
         },
         {
           "name": "いっぺん…死んでみる？",
-          "path": "3.台词回/你要尝试死一次吗.mp3",
+          "path": "3dialogue/changshisiyici.mp3",
           "description": {
             "zh": "いっぺん…死んでみる？",
             "ja": "いっぺん…死んでみる？",
@@ -56,7 +56,7 @@
         },
         {
           "name": "o泡",
-          "path": "3.台词回/O泡.mp3",
+          "path": "3dialogue/Opao.mp3",
           "description": {
             "zh": "o泡果奶",
             "ja": "o泡果奶",
@@ -66,7 +66,7 @@
         },
         {
           "name": "你们的心就由Imi收下啦",
-          "path": "3.台词回/收下了.mp3",
+          "path": "3dialogue/shouxiale.mp3",
           "description": {
             "zh": "你们的心就由Imi收下啦",
             "ja": "你们的心就由Imi收下啦",
@@ -76,7 +76,7 @@
         },
         {
           "name": "可爱又迷人的正面角色",
-          "path": "3.台词回/可爱又迷人的正面角色.mp3",
+          "path": "3dialogue/keaimirenzhengmianjuese.mp3",
           "description": {
             "zh": "Imi是可爱又迷人的正面角色",
             "ja": "Imi是可爱又迷人的正面角色",
@@ -86,7 +86,7 @@
         },
         {
           "name": "什么时候来哄哄Imi呀",
-          "path": "3.台词回/什么时候来哄哄imi呀.mp3",
+          "path": "3dialogue/honghongimi.mp3",
           "description": {
             "zh": "什么时候来哄哄Imi呀",
             "ja": "什么时候来哄哄Imi呀",
@@ -96,7 +96,7 @@
         },
         {
           "name": "哄完别人能来哄哄Imi吗",
-          "path": "3.台词回/哄完别人能来哄哄imi嘛.mp3",
+          "path": "3dialogue/hongwanbierennenglaihonghongimima.mp3",
           "description": {
             "zh": "该哄Imi了",
             "ja": "该哄Imi了",
@@ -106,7 +106,7 @@
         },
         {
           "name": "好过分啊",
-          "path": "3.台词回/啊好过分啊.mp3",
+          "path": "3dialogue/haoguofena.mp3",
           "description": {
             "zh": "好过分啊",
             "ja": "好过分啊",
@@ -116,7 +116,7 @@
         },
         {
           "name": "啊——",
-          "path": "3.台词回/啊——.mp3",
+          "path": "3dialogue/aaa.mp3",
           "description": {
             "zh": "啊——",
             "ja": "啊——",
@@ -134,49 +134,49 @@
       "voice_list": [
         {
           "name": "你的微积分还没写完...",
-          "path": "2.不可以休息噢/calculus.mp3",
+          "path": "2CantRest/calculus.mp3",
           "description": {
             "zh": "你的微积分还没写完..."
           }
         },
         {
           "name": "你的作业还没写完...",
-          "path": "2.不可以休息噢/hw.mp3",
+          "path": "2CantRest/hw.mp3",
           "description": {
             "zh": "你的作业还没写完..."
           }
         },
         {
           "name": "你的论文还没写完...",
-          "path": "2.不可以休息噢/paper_zh.mp3",
+          "path": "2CantRest/paper_zh.mp3",
           "description": {
             "zh": "你的论文还没写完..."
           }
         },
         {
           "name": "你的paper还没写完...",
-          "path": "2.不可以休息噢/paper.mp3",
+          "path": "2CantRest/paper.mp3",
           "description": {
             "zh": "你的paper还没写完..."
           }
         },
         {
           "name": "你的bug还没改完...",
-          "path": "2.不可以休息噢/bug.mp3",
+          "path": "2CantRest/bug.mp3",
           "description": {
             "zh": "你的bug还没改完..."
           }
         },
         {
           "name": "你的代码又报错了...",
-          "path": "2.不可以休息噢/segfault.mp3",
+          "path": "2CantRest/segfault.mp3",
           "description": {
             "zh": "你的代码又报错了..."
           }
         },
         {
           "name": "你的稿子还没画好...",
-          "path": "2.不可以休息噢/drawing.mp3",
+          "path": "2CantRest/drawing.mp3",
           "description": {
             "zh": "你的稿子还没画好..."
           }
@@ -191,7 +191,7 @@
       "voice_list": [
         {
           "name": "你打我",
-          "path": "4.其他/你打我.mp3",
+          "path": "4others/nidawo.mp3",
           "description": {
             "zh": "你打我",
             "ja": "你打我",

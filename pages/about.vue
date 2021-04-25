@@ -20,7 +20,7 @@ export default {
   head() {
     return {
       title: this.$t('site.about') + ' - ' + this.$t('site.title'),
-      link: [{ rel: 'canonical', href: 'https://korone.icu/about' }]
+      link: [{ rel: 'canonical', href: 'http://imimi.ink' }]
     };
   }
 };
