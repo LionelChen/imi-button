@@ -24,7 +24,7 @@ jobs:
       - name: install dependency
         run: npm install
       - name: build
-        run: npm build
+        run: npm run build
       - name: deploy serverless
         run: sls deploy --debug
         env: # 环境变量
