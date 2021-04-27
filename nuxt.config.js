@@ -59,7 +59,12 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/axios', '@nuxtjs/markdownit', '@nuxtjs/sitemap'],
+  modules: ['@nuxtjs/pwa', 
+            '@nuxtjs/axios', 
+            '@nuxtjs/markdownit', 
+            '@nuxtjs/sitemap',
+            // 请求代理配置，解决跨域
+            '@nuxtjs/proxy'],
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
@@ -151,5 +156,22 @@ export default {
       }
       
     }
+  },
+  axios: {
+    proxy: true,
+    prefix: '', // it only work when proxy is enabled
+    credentials: true,
+  },
+  proxy: {
+    // '/api/proxy/lylares': {
+    //   target: 'https://api.berryapi.net',
+    //   changeOrigin: true,
+    //   pathRewrite: { '^/api/proxy/lylares': '' },
+    // },
+    '/api': {
+      target: 'http://api.live.bilibili.com/',
+      pathRewrite: {'^/api/': ''},
+      changeOrigin: true,
+    },
   }
 };

@@ -59,9 +59,9 @@
       </div>
       <v-divider />
       <v-list>
-        <v-list-item dense to="/links" router exact>
+        <v-list-item dense to="/infos" router exact>
           <v-list-item-action>
-            <v-icon>{{ icons.play_list_star }}</v-icon>
+            <v-icon>{{ icons.info }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>{{ $t('site.links') }}</v-list-item-title>
@@ -123,7 +123,7 @@
       <v-container>
         <nuxt />
       </v-container>
-      <v-footer :fixed="false">
+      <v-footer :fixed="true">
         <div>
           <div style="vertical-align: middle">
             <span>&copy; {{ new Date().getFullYear() }} </span>
@@ -209,7 +209,8 @@ import {
   mdiGithub,
   mdiNewspaper,
   mdiAlphaBBox,
-  mdiPlaylistStar
+  mdiInformation,
+  mdiRadio
 } from '@mdi/js';
 export default {
   data() {
@@ -222,7 +223,8 @@ export default {
         github: mdiGithub,
         newspaper: mdiNewspaper,
         alpha_b_box: mdiAlphaBBox,
-        play_list_star: mdiPlaylistStar
+        info: mdiInformation,
+        netease_music: mdiRadio
       },
       drawer: false,
       fixed: false,
@@ -235,12 +237,12 @@ export default {
       ],
       external_link: [
         {
-          icon: 'alpha_b_box',
+          icon: '/img/bilibili-fill.svg',
           title: '伊深的时钟八音盒',
           to: 'https://space.bilibili.com/686331665/'
         },
         {
-          icon: 'alpha_b_box',
+          icon: 'netease_music',
           title: '伊深Imi的网易云电台',
           to: 'http://music.163.com/radio/796641576'
         }

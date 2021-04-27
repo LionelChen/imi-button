@@ -2,13 +2,14 @@
   <v-layout>
     <v-flex>
       <v-card :loading="loading">
-        <v-card-title>{{ $t('site.links') }}</v-card-title>
+        <v-card-title>{{ $t('live.activity') }}</v-card-title>
         <v-card-text>
-          <a v-for="item in links" :key="item.title" :href="item.url" target="_blank">
+          <!-- <a v-for="item in links" :key="item.title" :href="item.url" target="_blank">
             <voice-btn :large="true" class="link-button white--text" :class="item.color" :emoji="item.emoji">
               {{ item.tr[current_locale] }}
             </voice-btn>
-          </a>
+          </a> -->
+          {{ api_data }}
         </v-card-text>
       </v-card>
     </v-flex>
@@ -16,15 +17,13 @@
 </template>
 
 <script>
-import VoiceBtn from '../components/VoiceBtn';
+//import VoiceBtn from '../components/VoiceBtn';
 export default {
-  components: {
-    VoiceBtn
-  },
+  components: {},
   data() {
     return {
-      links: [],
-      loading: true
+      loading: true,
+      api_data: []
     };
   },
   computed: {
@@ -32,23 +31,8 @@ export default {
       return this.$i18n.locale;
     }
   },
-  mounted() {
-    const api = 'https://fubuki.moe/links.json';
-    this.$axios
-      .get(api)
-      .then(res => {
-        this.links = this.shuffle(
-          res.data.filter(function (el) {
-            return el.title !== 'korone';
-          })
-        );
-      })
-      .catch(err => {
-        console.log(err);
-      })
-      .finally(() => {
-        this.loading = false;
-      });
+  async mounted() {
+    await this.fetch_live_data();
   },
   methods: {
     shuffle(array) {
@@ -67,6 +51,21 @@ export default {
         array[randomIndex] = temporaryValue;
       }
       return array;
+    },
+    async fetch_live_data() {
+      const api_url = '/api/room/v1/Room/get_info?id=22605466';
+      this.$axios
+        .get(api_url, { withCredentials: true })
+        .then(res => {
+          this.api_data = res.data;
+          console.log(this.api_data);
+        })
+        .catch(err => {
+          console.log(err);
+        })
+        .finally(() => {
+          this.loading = false;
+        });
     }
   }
 };
