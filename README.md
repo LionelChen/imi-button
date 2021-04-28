@@ -32,8 +32,5 @@ B站私信 [崎失屿空](https://space.bilibili.com/678033561)
 
 Powered by Tecent Cloud Computing & Tencent Serverless Framework
 
-<a href="https://serverless.com/"> 
+<a href="https://serverless.com/"></a>
 <img src="https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png" alt="drawing" width="200"/>
-
-> **Serverless Framework** 是业界非常受欢迎的无服务器应用框架，开发者无需关心底层资源即可部署完整可用的 Serverless 应用架构。Serverless Framework 具有资源编排、自动伸缩、事件驱动等能力，覆盖编码-调试-测试-部署等全生命周期，帮助开发者通过联动云资源，迅速构建 Serverless 应用。
-

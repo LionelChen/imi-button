@@ -123,7 +123,7 @@
       <v-container>
         <nuxt />
       </v-container>
-      <v-footer :fixed="true">
+      <v-footer :fixed="false">
         <div>
           <div style="vertical-align: middle">
             <span>&copy; {{ new Date().getFullYear() }} </span>
