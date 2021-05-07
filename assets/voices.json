@@ -223,6 +223,43 @@
       ]
     },
     {
+      "group_name": "hso",
+      "group_description": {
+        "zh": "hso"
+      },
+      "voice_list": [
+        {
+          "name": "想做的事",
+          "path": "6hso/desired_thing.mp3",
+          "description": {
+            "zh": "想做的事",
+            "ja": "想做的事",
+            "en": "想做的事",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "多谢款待",
+          "path": "6hso/gochisousama.mp3",
+          "description": {
+            "zh": "多谢款待",
+            "ja": "ごちそうさま",
+            "en": "想做的事",
+            "Romaji": ""
+          }
+        },        {
+          "name": "先吃我",
+          "path": "6hso/先吃我.mp3",
+          "description": {
+            "zh": "先吃我",
+            "ja": "先吃我",
+            "en": "先吃我",
+            "Romaji": ""
+          }
+        }
+      ]
+    },
+    {
       "group_name": "其他",
       "group_description": {
         "zh": "其他"
