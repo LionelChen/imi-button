@@ -195,6 +195,34 @@
       ]
     },
     {
+      "group_name": "蝴蝶粗口",
+      "group_description": {
+        "zh": "蝴蝶粗口"
+      },
+      "voice_list": [
+        {
+          "name": "Fxxk",
+          "path": "4ButterflyCurse/fxxk.mp3",
+          "description": {
+            "zh": "Fxxk",
+            "ja": "Fxxk",
+            "en": "Fxxk",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "WTF",
+          "path": "4ButterflyCurse/wtf.mp3",
+          "description": {
+            "zh": "WTF",
+            "ja": "WTF",
+            "en": "WTF",
+            "Romaji": ""
+          }
+        }
+      ]
+    },
+    {
       "group_name": "其他",
       "group_description": {
         "zh": "其他"
@@ -202,7 +230,7 @@
       "voice_list": [
         {
           "name": "你打我",
-          "path": "4others/nidawo.mp3",
+          "path": "5others/nidawo.mp3",
           "description": {
             "zh": "你打我",
             "ja": "你打我",
