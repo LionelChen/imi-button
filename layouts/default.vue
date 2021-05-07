@@ -132,7 +132,13 @@
                 {{ $t('site.footer.kong') }}
               </a>
             </span>
-            <v-btn icon href="https://github.com/LionelChen/imi-button" target="_blank" style="vertical-align: middle" rel="noreferrer">
+            <v-btn
+              icon
+              href="https://github.com/LionelChen/imi-button"
+              target="_blank"
+              style="vertical-align: middle"
+              rel="noreferrer"
+            >
               <v-icon>{{ icons.github }}</v-icon>
             </v-btn>
           </div>

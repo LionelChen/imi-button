@@ -24,6 +24,11 @@
 
 - 崎失屿空
 
+音源截取:
+
+- 崎失屿空
+- 璐山思
+
 ## 协议
 
 开源协议：[GNU GPLv3 License](https://choosealicense.com/licenses/gpl-3.0/)
