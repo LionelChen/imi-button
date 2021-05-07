@@ -9,7 +9,7 @@
               {{ item.tr[current_locale] }}
             </voice-btn>
           </a> -->
-          {{ api_data }}
+          直播间标题: {{ live_title }}
         </v-card-text>
       </v-card>
     </v-flex>
@@ -23,7 +23,9 @@ export default {
   data() {
     return {
       loading: true,
-      api_data: []
+      api_data: [],
+      live_status: -1,
+      live_title: '载入中'
     };
   },
   computed: {
@@ -55,10 +57,12 @@ export default {
     async fetch_live_data() {
       const api_url = '/api/room/v1/Room/get_info?id=22605466';
       this.$axios
-        .get(api_url, { withCredentials: true })
+        .get(api_url)
         .then(res => {
           this.api_data = res.data;
-          console.log(this.api_data);
+          this.live_status = res.data.data.live_status;
+          this.live_title = res.data.data.title;
+          //console.log(this.api_data);
         })
         .catch(err => {
           console.log(err);
