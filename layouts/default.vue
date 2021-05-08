@@ -85,7 +85,7 @@
     >
       <v-app-bar-nav-icon class="white--text" @click.stop="drawer = !drawer" />
       <v-toolbar-title v-text="$t('site.title')" />
-      <v-img src="/icon.png" style="max-width: 90px; margin-left: -30px" />
+      <v-img src="/icon.png" style="max-width: 30px" />
       <v-spacer />
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
