@@ -25,6 +25,17 @@
             "en": "nA↑",
             "Romaji": ""
           }
+        },
+        {
+          "name": "nA~~~~~~~~~~~😭",
+          "path": "1nA/nA~~~~~~~~~~~.mp3",
+          "description": {
+            "zh": "nA~~~~~~~~~~~😭",
+            "ja": "nA~~~~~~~~~~~😭",
+            "en": "nA~~~~~~~~~~~😭",
+            "Romaji": ""
+          }
+          
         }
       ]
     },
@@ -184,6 +195,71 @@
       ]
     },
     {
+      "group_name": "蝴蝶粗口",
+      "group_description": {
+        "zh": "蝴蝶粗口"
+      },
+      "voice_list": [
+        {
+          "name": "Fxxk",
+          "path": "4ButterflyCurse/fxxk.mp3",
+          "description": {
+            "zh": "Fxxk",
+            "ja": "Fxxk",
+            "en": "Fxxk",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "WTF",
+          "path": "4ButterflyCurse/wtf.mp3",
+          "description": {
+            "zh": "WTF",
+            "ja": "WTF",
+            "en": "WTF",
+            "Romaji": ""
+          }
+        }
+      ]
+    },
+    {
+      "group_name": "hso",
+      "group_description": {
+        "zh": "hso"
+      },
+      "voice_list": [
+        {
+          "name": "想做的事",
+          "path": "6hso/desired_thing.mp3",
+          "description": {
+            "zh": "想做的事",
+            "ja": "想做的事",
+            "en": "想做的事",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "多谢款待",
+          "path": "6hso/gochisousama.mp3",
+          "description": {
+            "zh": "多谢款待",
+            "ja": "ごちそうさま",
+            "en": "想做的事",
+            "Romaji": ""
+          }
+        },        {
+          "name": "先吃我",
+          "path": "6hso/先吃我.mp3",
+          "description": {
+            "zh": "先吃我",
+            "ja": "先吃我",
+            "en": "先吃我",
+            "Romaji": ""
+          }
+        }
+      ]
+    },
+    {
       "group_name": "其他",
       "group_description": {
         "zh": "其他"
@@ -191,7 +267,7 @@
       "voice_list": [
         {
           "name": "你打我",
-          "path": "4others/nidawo.mp3",
+          "path": "5others/nidawo.mp3",
           "description": {
             "zh": "你打我",
             "ja": "你打我",
