@@ -215,6 +215,34 @@
       ]
     },
     {
+      "group_name": "蝴蝶笑声",
+      "group_description": {
+        "zh": "蝴蝶笑声"
+      },
+      "voice_list": [
+        {
+          "name": "欸嘿嘿嘿",
+          "path": "9laugh/eh_hey_hey_hey.mp3",
+          "description": {
+            "zh": "欸嘿嘿嘿",
+            "ja": "欸嘿嘿嘿",
+            "en": "欸嘿嘿嘿",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "金馆长",
+          "path": "9laugh/master_kim.mp3",
+          "description": {
+            "zh": "金馆长",
+            "ja": "金馆长",
+            "en": "金馆长",
+            "Romaji": ""
+          }
+        }
+      ]
+      },
+    {
       "group_name": "蝴蝶吃瘪",
       "group_description": {
         "zh": "蝴蝶吃瘪"
