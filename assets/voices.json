@@ -280,6 +280,44 @@
       ]
     },
     {
+      "group_name": "怪声",
+      "group_description": {
+        "zh": "怪声"
+      },
+      "voice_list": [
+        {
+          "name": "嗯_up_down",
+          "path": "7weirdSound/en_flat_down.mp3",
+          "description": {
+            "zh": "嗯→↘",
+            "ja": "嗯→↘",
+            "en": "嗯→↘",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "伸懒腰_0",
+          "path": "7weirdSound/stretch_0.mp3",
+          "description": {
+            "zh": "伸懒腰_0",
+            "ja": "伸懒腰_0",
+            "en": "伸懒腰_0",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "伸懒腰_1",
+          "path": "7weirdSound/stretch_1.mp3",
+          "description": {
+            "zh": "伸懒腰_1",
+            "ja": "伸懒腰_1",
+            "en": "伸懒腰_1",
+            "Romaji": ""
+          }
+        }
+      ]
+    },
+    {
       "group_name": "其他",
       "group_description": {
         "zh": "其他"
