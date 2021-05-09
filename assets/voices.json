@@ -36,6 +36,26 @@
             "Romaji": ""
           }
           
+        },
+        {
+          "name": "nA~!",
+          "path": "1nA/nA~!.mp3",
+          "description": {
+            "zh": "nA~!",
+            "ja": "nA~!",
+            "en": "nA~!",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "nAnAnAAAAA",
+          "path": "1nA/nAnAnAAAAA.mp3",
+          "description": {
+            "zh": "nAnAnAAAAA",
+            "ja": "nAnAnAAAAA",
+            "en": "nAnAnAAAAA",
+            "Romaji": "nAnAnAAAAA"
+          }
         }
       ]
     },
