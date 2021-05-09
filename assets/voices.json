@@ -371,13 +371,24 @@
             "en": "想做的事",
             "Romaji": ""
           }
-        },        {
+        },
+        {
           "name": "先吃我",
           "path": "6hso/xianchiwo.mp3",
           "description": {
             "zh": "先吃我",
             "ja": "先吃我",
             "en": "先吃我",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "喜欢吗",
+          "path": "6hso/xihuanma.mp3",
+          "description": {
+            "zh": "喜欢吗",
+            "ja": "喜欢吗",
+            "en": "喜欢吗",
             "Romaji": ""
           }
         }
@@ -434,6 +445,76 @@
             "zh": "你打我",
             "ja": "你打我",
             "en": "你打我",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "水之呼吸零式",
+          "path": "5others/guru_0.mp3",
+          "description": {
+            "zh": "水之呼吸零式🌊",
+            "ja": "水之呼吸零式🌊",
+            "en": "Breath of Water 🌊",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "水之呼吸壹式",
+          "path": "5others/guru_1.mp3",
+          "description": {
+            "zh": "水之呼吸壹式🌊",
+            "ja": "水之呼吸壹式🌊",
+            "en": "Breath of Water I🌊",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "水之呼吸贰式",
+          "path": "5others/guru_2.mp3",
+          "description": {
+            "zh": "水之呼吸贰式🌊",
+            "ja": "水之呼吸贰式🌊",
+            "en": "Breath of Water II🌊",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "水之呼吸叁式",
+          "path": "5others/guru_3.mp3",
+          "description": {
+            "zh": "水之呼吸叁式🌊",
+            "ja": "水之呼吸叁式🌊",
+            "en": "Breath of Water III🌊",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "哒嘀哒嘀嘟",
+          "path": "5others/dadidadidu.mp3",
+          "description": {
+            "zh": "哒嘀哒嘀嘟",
+            "ja": "哒嘀哒嘀嘟",
+            "en": "哒嘀哒嘀嘟",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "怎会如此~~",
+          "path": "5others/zenhuiruci.mp3",
+          "description": {
+            "zh": "怎会如此~~",
+            "ja": "怎会如此~~",
+            "en": "怎会如此~~",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "what_the_nA_wA_ruA",
+          "path": "5others/what_the_nA_wA_ruA.mp3",
+          "description": {
+            "zh": "What the nA wA ruA",
+            "ja": "What the nA wA ruA",
+            "en": "What the nA wA ruA",
             "Romaji": ""
           }
         }
