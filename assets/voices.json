@@ -60,6 +60,24 @@
       ]
     },
     {
+      "group_name": "wA!",
+      "group_description": {
+        "zh": "wA!"
+      },
+      "voice_list": [
+        {
+          "name": "wA",
+          "path": "10wA/wA_0.mp3",
+          "description": {
+            "zh": "wA",
+            "ja": "wA",
+            "en": "wA",
+            "Romaji": ""
+          }
+        }
+      ]
+    },
+    {
       "group_name": "台词回",
       "group_description": {
         "zh": "台词回"
