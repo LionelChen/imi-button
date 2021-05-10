@@ -411,22 +411,22 @@
           }
         },
         {
-          "name": "伸懒腰_0",
-          "path": "7weirdSound/stretch_0.mp3",
+          "name": "伸懒腰",
+          "path": "7weirdSound/stretch_1.mp3",
           "description": {
-            "zh": "伸懒腰_0",
-            "ja": "伸懒腰_0",
-            "en": "伸懒腰_0",
+            "zh": "伸懒腰",
+            "ja": "伸懒腰",
+            "en": "伸懒腰",
             "Romaji": ""
           }
         },
         {
-          "name": "伸懒腰_1",
-          "path": "7weirdSound/stretch_1.mp3",
+          "name": "伸懒腰Plus",
+          "path": "7weirdSound/stretch_0.mp3",
           "description": {
-            "zh": "伸懒腰_1",
-            "ja": "伸懒腰_1",
-            "en": "伸懒腰_1",
+            "zh": "伸懒腰Plus",
+            "ja": "伸懒腰Plus",
+            "en": "伸懒腰Plus",
             "Romaji": ""
           }
         }
