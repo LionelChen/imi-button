@@ -19,10 +19,12 @@
     "@nuxtjs/proxy": "^2.1.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/vercel-builder": "^0.21.2",
     "dayjs": "^1.8.28",
     "markdown-it-attrs": "^3.0.2",
     "markdown-it-div": "^1.1.0",
     "nuxt": "^2.14.0",
+    "vercel": "^22.0.1",
     "vue-i18n": "^8.17.4",
     "vue-tour": "^2.0.0"
   },
