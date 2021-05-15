@@ -23,7 +23,8 @@
     "markdown-it-attrs": "^3.0.2",
     "markdown-it-div": "^1.1.0",
     "nuxt": "^2.14.0",
-    "vue-i18n": "^8.17.4"
+    "vue-i18n": "^8.17.4",
+    "vue-tour": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0",
