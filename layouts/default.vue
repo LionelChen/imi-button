@@ -90,7 +90,8 @@
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <v-btn icon class="white--text" @click="switch_dark()" v-on="on">
-            <v-icon>{{ icons.brightness }}</v-icon>
+            <v-icon v-if="$vuetify.theme.dark">{{ icons.butterfly }} </v-icon>
+            <v-icon v-else>{{ icons.cat }} </v-icon>
           </v-btn>
         </template>
         <span>{{ $t('site.switch_dark_mode') }}</span>
@@ -216,7 +217,9 @@ import {
   mdiNewspaper,
   mdiAlphaBBox,
   mdiInformation,
-  mdiRadio
+  mdiRadio,
+  mdiCat,
+  mdiButterfly
 } from '@mdi/js';
 export default {
   data() {
@@ -230,7 +233,9 @@ export default {
         newspaper: mdiNewspaper,
         alpha_b_box: mdiAlphaBBox,
         info: mdiInformation,
-        netease_music: mdiRadio
+        netease_music: mdiRadio,
+        cat: mdiCat,
+        butterfly: mdiButterfly
       },
       drawer: false,
       fixed: false,
@@ -275,6 +280,8 @@ export default {
     switch_dark() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
       this.$store.commit('SET_DARK', this.$vuetify.theme.dark);
+      // Also switch nya mode, re-use dark value
+      this.$store.commit('set_nya_mode', this.$vuetify.theme.dark);
     },
     switch_lang(lang) {
       console.log('switching to ' + lang);

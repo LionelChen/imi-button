@@ -69,7 +69,7 @@
             v-for="item in group.voice_list"
             :key="item.name"
             :class="voice_button_color"
-            @click.native="play(item)"
+            @click.native="$store.getters.get_nya_mode ? get_random_nya() : play(item)"
           >
             {{ item.description[current_locale] }}
           </voice-btn>
@@ -105,6 +105,7 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 
 <script>
 import voice_lists from '~/assets/voices.json';
+import nya from '~/assets/nya.json';
 import DevWarning from '../components/DevWarning';
 import VoiceBtn from '../components/VoiceBtn';
 import {
@@ -140,6 +141,7 @@ export default {
       repeat: false,
       fab: false,
       groups: voice_lists.groups,
+      nya_list: nya.voice_list,
       lives: [],
       upcoming_lives: [],
       lives_loading: true
@@ -290,8 +292,15 @@ export default {
       return Math.floor(Math.random() * Math.floor(max));
     },
     get_random_voice() {
-      let random_list = this.groups[this.get_random_int(this.groups.length)];
-      this.play(random_list.voice_list[this.get_random_int(random_list.voice_list.length)]);
+      if (this.$store.getters.get_nya_mode) {
+        this.get_random_nya();
+      } else {
+        let random_list = this.groups[this.get_random_int(this.groups.length)];
+        this.play(random_list.voice_list[this.get_random_int(random_list.voice_list.length)]);
+      }
+    },
+    get_random_nya() {
+      this.play(this.nya_list[this.get_random_int(this.nya_list.length)]);
     },
     stop_all() {
       console.log('stop-all');
