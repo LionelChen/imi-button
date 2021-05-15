@@ -1,22 +1,58 @@
 {
     "voice_list": [
         {
-            "path": "nya_machine/nya_1_Sub_01.mp3"
+            "path": "nya_machine/nya_1_Sub_01.mp3",
+            "description": {
+                "zh": "nya",
+                "ja": "nya",
+                "en": "nya",
+                "Romaji": ""
+              }
         },
         {
-            "path": "nya_machine/nya_1_Sub_02.mp3"
+            "path": "nya_machine/nya_1_Sub_02.mp3",
+            "description": {
+                "zh": "nya",
+                "ja": "nya",
+                "en": "nya",
+                "Romaji": ""
+              }
         },
         {
-            "path": "nya_machine/nya_1_Sub_03.mp3"
+            "path": "nya_machine/nya_1_Sub_03.mp3",
+            "description": {
+                "zh": "nya",
+                "ja": "nya",
+                "en": "nya",
+                "Romaji": ""
+              }
         },
         {
-            "path": "nya_machine/nya_1_Sub_04.mp3"
+            "path": "nya_machine/nya_1_Sub_04.mp3",
+            "description": {
+                "zh": "nya",
+                "ja": "nya",
+                "en": "nya",
+                "Romaji": ""
+              }
         },
         {
-            "path": "nya_machine/nya_1_Sub_05.mp3"
+            "path": "nya_machine/nya_1_Sub_05.mp3",
+            "description": {
+                "zh": "nya",
+                "ja": "nya",
+                "en": "nya",
+                "Romaji": ""
+              }
         },
         {
-            "path": "nya_machine/nya_1_Sub_06.mp3"
+            "path": "nya_machine/nya_1_Sub_06.mp3",
+            "description": {
+                "zh": "nya",
+                "ja": "nya",
+                "en": "nya",
+                "Romaji": ""
+              }
         }
     ]
 }
