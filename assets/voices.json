@@ -287,6 +287,26 @@
           }
         },
         {
+          "name": "呃啊x3",
+          "path": "8defeated/eha_x3.mp3",
+          "description": {
+            "zh": "呃啊x3",
+            "ja": "呃啊x3",
+            "en": "呃啊x3",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "我需要治疗",
+          "path": "8defeated/i_need_healing.mp3",
+          "description": {
+            "zh": "我需要治疗",
+            "ja": "我需要治疗",
+            "en": "我需要治疗",
+            "Romaji": ""
+          }
+        },
+        {
           "name": "这也太吓人了吧",
           "path": "8defeated/so_scaring.mp3",
           "description": {
@@ -389,6 +409,46 @@
             "zh": "喜欢吗",
             "ja": "喜欢吗",
             "en": "喜欢吗",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "把Imi灌醉了你们想干嘛呀",
+          "path": "6hso/drunk_0.mp3",
+          "description": {
+            "zh": "把Imi灌醉了你们想干嘛呀",
+            "ja": "把Imi灌醉了你们想干嘛呀",
+            "en": "把Imi灌醉了你们想干嘛呀",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "你们灌醉Imi是想做什么事情呀",
+          "path": "6hso/drunk_1.mp3",
+          "description": {
+            "zh": "你们灌醉Imi是想做什么事情呀",
+            "ja": "你们灌醉Imi是想做什么事情呀",
+            "en": "你们灌醉Imi是想做什么事情呀",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "Imi也可以穿深V",
+          "path": "6hso/deep_v.mp3",
+          "description": {
+            "zh": "Imi也可以穿深V",
+            "ja": "Imi也可以穿深V",
+            "en": "Imi也可以穿深V",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "Imi可以做阿柴做不了的涩的事情",
+          "path": "6hso/tanoshiba_cant_do_this.mp3",
+          "description": {
+            "zh": "Imi可以做阿柴做不了的涩的事情",
+            "ja": "Imi可以做阿柴做不了的涩的事情",
+            "en": "Imi可以做阿柴做不了的涩的事情",
             "Romaji": ""
           }
         }
