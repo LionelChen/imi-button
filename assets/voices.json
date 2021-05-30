@@ -431,10 +431,58 @@
             "en": "你们灌醉Imi是想做什么事情呀",
             "Romaji": ""
           }
+        }
+      ]
+    },
+    {
+      "group_name": "问题发言",
+      "group_description": {
+        "zh": "问题发言"
+      },
+      "voice_list": [
+        {
+          "name": "你没吃饭吗",
+          "path": "11questionableWords/did_you_eat.mp3",
+          "description": {
+            "zh": "你没吃饭吗",
+            "ja": "你没吃饭吗",
+            "en": "你没吃饭吗",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "这种东西不可以天天做的",
+          "path": "11questionableWords/cant_do_this_everyday.mp3",
+          "description": {
+            "zh": "这种东西不可以天天做的",
+            "ja": "这种东西不可以天天做的",
+            "en": "这种东西不可以天天做的",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "好孩子涩起来更刺激",
+          "path": "11questionableWords/sexy_good_girl.mp3",
+          "description": {
+            "zh": "好孩子涩起来更刺激",
+            "ja": "好孩子涩起来更刺激",
+            "en": "好孩子涩起来更刺激",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "勾引一下",
+          "path": "11questionableWords/tempt_it.mp3",
+          "description": {
+            "zh": "勾引一下",
+            "ja": "勾引一下",
+            "en": "勾引一下",
+            "Romaji": ""
+          }
         },
         {
           "name": "Imi也可以穿深V",
-          "path": "6hso/deep_v.mp3",
+          "path": "11questionableWords/deep_v.mp3",
           "description": {
             "zh": "Imi也可以穿深V",
             "ja": "Imi也可以穿深V",
@@ -444,7 +492,7 @@
         },
         {
           "name": "Imi可以做阿柴做不了的涩的事情",
-          "path": "6hso/tanoshiba_cant_do_this.mp3",
+          "path": "11questionableWords/tanoshiba_cant_do_this.mp3",
           "description": {
             "zh": "Imi可以做阿柴做不了的涩的事情",
             "ja": "Imi可以做阿柴做不了的涩的事情",
