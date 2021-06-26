@@ -128,11 +128,11 @@
       </v-menu>
     </v-app-bar>
     <v-main>
-      <v-container>
+      <v-container class="page">
         <nuxt />
       </v-container>
-      <v-footer bottom padless>
-        <v-card tile width="100%" class="text-center">
+      <v-footer :fixed="false" class="footer">
+        <div>
           <div style="vertical-align: middle">
             <span>&copy; {{ new Date().getFullYear() }} </span>
             <span>
@@ -159,7 +159,7 @@
           <div>
             <p>{{ $t('site.footer.content') }}</p>
           </div>
-        </v-card>
+        </div>
       </v-footer>
     </v-main>
   </v-app>
@@ -211,6 +211,14 @@ $blur-function: blur(3px);
 }
 a {
   text-decoration: none;
+}
+.page {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-bottom: 110px;
+}
+.footer {
+  margin-top: -110px;
 }
 </style>
 

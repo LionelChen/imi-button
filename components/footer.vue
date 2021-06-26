@@ -1,5 +1,5 @@
 <template>
-  <v-footer app bottom fixed padless>
+  <v-footer :fixed="false" class="footer">
     <v-card flat tile width="100%" class="text-center">
       <div style="vertical-align: middle">
         <span>&copy; {{ new Date().getFullYear() }} </span>
@@ -30,3 +30,24 @@
     </v-card>
   </v-footer>
 </template>
+
+<script>
+import { mdiGithub } from '@mdi/js';
+export default {
+  data() {
+    return {
+      icons: {
+        github: mdiGithub
+      },
+      fixed: false
+    };
+  },
+  computed: {
+    tencent_logo() {
+      //const mode = this.$vuetify.theme.dark ? 'dark' : 'light';
+      return '/img/tencent/tencent_cloud.png';
+      //return '/img/tencent/' + mode + '.svg';
+    }
+  }
+};
+</script>

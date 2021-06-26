@@ -17,7 +17,6 @@
 </template>
 
 <script>
-//import VoiceBtn from '../components/VoiceBtn';
 export default {
   components: {},
   data() {
