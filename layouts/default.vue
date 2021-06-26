@@ -131,7 +131,7 @@
       <v-container>
         <nuxt />
       </v-container>
-      <v-footer app bottom fixed padless>
+      <v-footer bottom padless>
         <v-card tile width="100%" class="text-center">
           <div style="vertical-align: middle">
             <span>&copy; {{ new Date().getFullYear() }} </span>
