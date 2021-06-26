@@ -215,10 +215,10 @@ a {
 .page {
   box-sizing: border-box;
   min-height: 100%;
-  padding-bottom: 110px;
+  padding-bottom: 112px;
 }
 .footer {
-  margin-top: -110px;
+  margin-top: -112px;
 }
 </style>
 
