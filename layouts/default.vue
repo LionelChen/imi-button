@@ -59,12 +59,20 @@
       </div>
       <v-divider />
       <v-list>
+        <v-list-item dense to="/derivative_works" router exact>
+          <v-list-item-action>
+            <v-icon>{{ icons.derivative_works }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t('site.derivative_works') }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item dense to="/infos" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.info }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>{{ $t('site.links') }}</v-list-item-title>
+            <v-list-item-title>{{ $t('site.stream_info') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-list-item dense to="/about" router exact>
@@ -78,7 +86,6 @@
       </v-list>
     </v-navigation-drawer>
     <v-app-bar
-      dense
       class="primary white--text"
       :class="[this.$vuetify.theme.dark ? 'gradient-header-dark' : 'gradient-header-light']"
       app
@@ -124,8 +131,8 @@
       <v-container>
         <nuxt />
       </v-container>
-      <v-footer :fixed="false">
-        <div>
+      <v-footer app bottom fixed padless>
+        <v-card tile width="100%" class="text-center">
           <div style="vertical-align: middle">
             <span>&copy; {{ new Date().getFullYear() }} </span>
             <span>
@@ -152,7 +159,7 @@
           <div>
             <p>{{ $t('site.footer.content') }}</p>
           </div>
-        </div>
+        </v-card>
       </v-footer>
     </v-main>
   </v-app>
@@ -219,7 +226,8 @@ import {
   mdiInformation,
   mdiRadio,
   mdiCat,
-  mdiButterfly
+  mdiButterfly,
+  mdiContentCut
 } from '@mdi/js';
 export default {
   data() {
@@ -235,7 +243,8 @@ export default {
         info: mdiInformation,
         netease_music: mdiRadio,
         cat: mdiCat,
-        butterfly: mdiButterfly
+        butterfly: mdiButterfly,
+        derivative_works: mdiContentCut
       },
       drawer: false,
       fixed: false,
