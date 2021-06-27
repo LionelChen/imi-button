@@ -33,8 +33,19 @@ const api_url = '/api/x/space/acc/info?mid=2';
 
 export const actions = {
   async nuxtServerInit({ state }) {
-    let response = await this.$axios.get(api_url);
-    state.der_usr_name_list = response.data.data.name;
-    console.log('state.der_usr_name_list:', state.der_usr_name_list);
+    this.$axios
+      .get(api_url)
+      .then(res => {
+        state.der_usr_name_list = res.data.data.name;
+        console.log(res.data.data.name);
+        console.log(this.state.der_usr_name_list);
+      })
+      .catch(err => {
+        console.log(err);
+      })
+      .finally(() => {
+        this.loading = false;
+      });
+    //console.log('state.der_usr_name_list:', state.der_usr_name_list);
   }
 };
