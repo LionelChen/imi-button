@@ -2,14 +2,14 @@
   <v-layout>
     <v-flex>
       <v-card :loading="loading">
-        <v-card-title>{{ $t('live.activity') }}</v-card-title>
+        <v-card-title>{用户名单：}</v-card-title>
         <v-card-text>
           <!-- <a v-for="item in links" :key="item.title" :href="item.url" target="_blank">
             <voice-btn :large="true" class="link-button white--text" :class="item.color" :emoji="item.emoji">
               {{ item.tr[current_locale] }}
             </voice-btn>
           </a> -->
-          直播间标题: {{ live_title }}
+          用户昵称 {{ [der_usr_name_list] }}
         </v-card-text>
       </v-card>
     </v-flex>
@@ -18,19 +18,32 @@
 
 <script>
 //import VoiceBtn from '../components/VoiceBtn';
+
 export default {
   components: {},
   data() {
     return {
-      loading: true,
+      loading: this.$store.state.loading,
       api_data: [],
       live_status: -1,
-      live_title: '载入中'
+      live_title: '载入中',
+      derivative_accounts: [
+        {
+          icon: '/img/bilibili-fill.svg',
+          title: '伊深Imi的个人空间',
+          to: 'https://space.bilibili.com/690608694'
+        }
+      ],
+      posts: []
     };
   },
   computed: {
     current_locale() {
       return this.$i18n.locale;
+    },
+    der_usr_name_list() {
+      console.log(this.$store.state.der_usr_name_list);
+      return this.$store.state.der_usr_name_list;
     }
   },
   async mounted() {
@@ -55,21 +68,22 @@ export default {
       return array;
     },
     async fetch_live_data() {
-      const api_url = '/api/room/v1/Room/get_info?id=22605466';
-      this.$axios
-        .get(api_url)
+      //const api_url = '/api/x/space/acc/info?mid=2';
+      /*       this.$axios
+        .get(api_url, {
+          withCredentials: true
+        })
         .then(res => {
           this.api_data = res.data;
-          this.live_status = res.data.data.live_status;
-          this.live_title = res.data.data.title;
-          //console.log(this.api_data);
+          //this.live_title = res.data.name;
+          console.log(this.api_data);
         })
         .catch(err => {
           console.log(err);
         })
         .finally(() => {
           this.loading = false;
-        });
+        }); */
     }
   }
 };

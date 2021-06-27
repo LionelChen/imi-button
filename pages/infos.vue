@@ -54,7 +54,7 @@ export default {
       return array;
     },
     async fetch_live_data() {
-      const api_url = '/api/room/v1/Room/get_info?id=22605466';
+      const api_url = '/liveapi/room/v1/Room/get_info?id=22605466';
       this.$axios
         .get(api_url)
         .then(res => {
