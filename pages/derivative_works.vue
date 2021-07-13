@@ -9,7 +9,7 @@
               {{ item.tr[current_locale] }}
             </voice-btn>
           </a> -->
-          用户昵称 {{ [der_usr_name_list] }}
+          用户昵称 {{ [derivative_accounts] }}
         </v-card-text>
       </v-card>
     </v-flex>
@@ -27,13 +27,7 @@ export default {
       api_data: [],
       live_status: -1,
       live_title: '载入中',
-      derivative_accounts: [
-        {
-          icon: '/img/bilibili-fill.svg',
-          title: '伊深Imi的个人空间',
-          to: 'https://space.bilibili.com/690608694'
-        }
-      ],
+      derivative_accounts: this.$store.state.der_usr_name_list,
       posts: []
     };
   },
@@ -42,7 +36,7 @@ export default {
       return this.$i18n.locale;
     },
     der_usr_name_list() {
-      console.log(this.$store.state.der_usr_name_list);
+      console.log('page fetch', this.$store.state.der_usr_name_list);
       return this.$store.state.der_usr_name_list;
     }
   },

@@ -297,6 +297,16 @@
           }
         },
         {
+          "name": "啊⬇️",
+          "path": "8defeated/ai.mp3",
+          "description": {
+            "zh": "啊⬇️",
+            "ja": "啊⬇️",
+            "en": "啊⬇️",
+            "Romaji": ""
+          }
+        },
+        {
           "name": "我需要治疗",
           "path": "8defeated/i_need_healing.mp3",
           "description": {
@@ -409,6 +419,16 @@
             "zh": "喜欢吗",
             "ja": "喜欢吗",
             "en": "喜欢吗",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "喜欢你",
+          "path": "6hso/xihuanni.mp3",
+          "description": {
+            "zh": "喜欢你",
+            "ja": "喜欢你",
+            "en": "喜欢你",
             "Romaji": ""
           }
         },
@@ -575,6 +595,36 @@
             "zh": "伸懒腰4",
             "ja": "伸懒腰4",
             "en": "伸懒腰4",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "拍肚皮",
+          "path": "7weirdSound/patpatpat1.mp3",
+          "description": {
+            "zh": "拍肚皮1",
+            "ja": "拍肚皮1",
+            "en": "拍肚皮1",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "拍肚皮2",
+          "path": "7weirdSound/patpatpat2.mp3",
+          "description": {
+            "zh": "拍肚皮2",
+            "ja": "拍肚皮2",
+            "en": "拍肚皮2",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "哈欠",
+          "path": "7weirdSound/yawn.mp3",
+          "description": {
+            "zh": "哈欠",
+            "ja": "哈欠",
+            "en": "哈欠",
             "Romaji": ""
           }
         }

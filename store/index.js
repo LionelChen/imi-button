@@ -36,7 +36,7 @@ export const actions = {
     this.$axios
       .get(api_url)
       .then(res => {
-        state.der_usr_name_list = res.data.data.name;
+        this.state.der_usr_name_list = res.data.data.name;
         console.log(res.data.data.name);
         console.log(this.state.der_usr_name_list);
       })
@@ -45,7 +45,7 @@ export const actions = {
       })
       .finally(() => {
         this.loading = false;
+        console.log('state.der_usr_name_list:', state.der_usr_name_list);
       });
-    //console.log('state.der_usr_name_list:', state.der_usr_name_list);
   }
 };
