@@ -172,11 +172,11 @@ export default {
       target: 'http://api.live.bilibili.com/',
       pathRewrite: {'^/liveapi/': ''},
       changeOrigin: true,
-    },
+    }/* ,
     '/api': {
       target: 'http://api.bilibili.com/',
       pathRewrite: {'^/api/': ''},
       changeOrigin: true,
-    },
+    }, */
   }
 };

@@ -266,8 +266,8 @@ export default {
       external_link: [
         {
           icon: '/img/bilibili-fill.svg',
-          title: '伊深的时钟八音盒',
-          to: 'https://space.bilibili.com/686331665/'
+          title: '看看切片:一块小饼干呀QAQ',
+          to: 'https://space.bilibili.com/25614674'
         },
         {
           icon: 'netease_music',

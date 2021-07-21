@@ -20,6 +20,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/vercel-builder": "^0.21.2",
+    "bili-api": "^1.6.0",
     "dayjs": "^1.8.28",
     "markdown-it-attrs": "^3.0.2",
     "markdown-it-div": "^1.1.0",

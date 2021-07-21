@@ -62,8 +62,8 @@ export default {
       return array;
     },
     async fetch_live_data() {
-      //const api_url = '/api/x/space/acc/info?mid=2';
-      /*       this.$axios
+      const api_url = '/api/x/space/acc/info?mid=2';
+      this.$axios
         .get(api_url, {
           withCredentials: true
         })
@@ -77,7 +77,7 @@ export default {
         })
         .finally(() => {
           this.loading = false;
-        }); */
+        });
     }
   }
 };

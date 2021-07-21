@@ -29,16 +29,22 @@ export const getters = {
     return state.nya_mode;
   }
 };
-const api_url = '/api/x/space/acc/info?mid=2';
+//const api_url = 'http://api.bilibili.com/x/space/acc/info?mid=2';
 
 export const actions = {
-  async nuxtServerInit({ state }) {
-    this.$axios
-      .get(api_url)
+  /*async nuxtServerInit({ state }) {
+     this.$axios
+      .get(api_url, {
+        headers: {
+          Cookie: 'SESSDATA=xxx'
+        }
+      })
       .then(res => {
-        this.state.der_usr_name_list = res.data.data.name;
-        console.log(res.data.data.name);
-        console.log(this.state.der_usr_name_list);
+        //this.state.der_usr_name_list = res.data.data.name;
+        //console.log(res.data.data.name);
+        console.log('test');
+        console.log(res);
+        //console.log(this.state.der_usr_name_list);
       })
       .catch(err => {
         console.log(err);
@@ -46,6 +52,7 @@ export const actions = {
       .finally(() => {
         this.loading = false;
         console.log('state.der_usr_name_list:', state.der_usr_name_list);
-      });
-  }
+      }); 
+
+  }*/
 };
