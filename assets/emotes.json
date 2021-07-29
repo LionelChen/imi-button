@@ -1,0 +1,25 @@
+{
+    "emotes_list": [
+        {
+            "path": "ding.jpg",
+            "keyword": "盯",
+            "addTime": "1980"
+        },
+        {
+            "path": "miao.png",
+            "keyword": "喵",
+            "addTime": "1980"
+        },
+        {
+            "path": "mua.jpeg",
+            "keyword": "mua",
+            "addTime": "1980"
+        },
+        {
+            "path": "nigeiludayou.png",
+            "keyword": "泥给路达油",
+            "addTime": "1980"
+        }
+    ]
+}
+  

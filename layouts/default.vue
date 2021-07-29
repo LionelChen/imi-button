@@ -75,6 +75,14 @@
             <v-list-item-title>{{ $t('site.stream_info') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+        <v-list-item dense to="/emotes" router exact>
+          <v-list-item-action>
+            <v-icon>{{ icons.emotes }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t('site.emotes') }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item dense to="/about" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.code_tags }}</v-icon>
@@ -235,7 +243,8 @@ import {
   mdiRadio,
   mdiCat,
   mdiButterfly,
-  mdiContentCut
+  mdiContentCut,
+  mdiEmoticonKissOutline
 } from '@mdi/js';
 export default {
   data() {
@@ -252,7 +261,8 @@ export default {
         netease_music: mdiRadio,
         cat: mdiCat,
         butterfly: mdiButterfly,
-        derivative_works: mdiContentCut
+        derivative_works: mdiContentCut,
+        emotes: mdiEmoticonKissOutline
       },
       drawer: false,
       fixed: false,
