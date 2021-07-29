@@ -1,7 +1,7 @@
 <template>
   <v-row>
-    <v-col v-for="emote in emotes" :key="emote.keyword" class="d-flex child-flex" cols="3">
-      <v-card>
+    <v-col v-for="emote in emotes" :key="emote.keyword" class="d-flex child-flex">
+      <v-card min-width="125">
         <v-img
           :src="`/emotes/${emote.path}`"
           :lazy-src="`/emotes/${emote.path}`"
