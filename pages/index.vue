@@ -191,7 +191,7 @@ export default {
   },
   async mounted() {
     this.$vuetify.theme.dark = this.$store.state.dark === 'true';
-    await this.fetch_live_data();
+    //await this.fetch_live_data();
   },
   methods: {
     async fetch_live_data() {
