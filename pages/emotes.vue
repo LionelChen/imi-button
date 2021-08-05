@@ -13,7 +13,8 @@
           >
             <v-fade-transition>
               <v-overlay v-if="hover" absolute color="#036358">
-                <v-btn @click.stop="copy_to_clipboard(emote.keyword)">复制关键词</v-btn>
+                <v-alert v-if="succeed" type="success"> I'm a success alert. </v-alert>
+                <v-btn v-else @click.stop="copy_to_clipboard(emote.keyword)">复制关键词</v-btn>
               </v-overlay>
             </v-fade-transition>
           </v-img>
