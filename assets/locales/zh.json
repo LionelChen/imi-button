@@ -9,10 +9,11 @@
     "switch_dark_mode": "蝴蝶喵模式切换",
     "switch_language": "切换语言",
     "derivative_works": "二创/切片(测试用)",
-    "emotes":"直播间表情(测试)",
+    "emotes":"直播间表情",
     "footer": {
       "kong": "崎失屿空",
-      "content": "本站为爱好者作品，和VirtuaReal官方没有关联，STAFF名单以及项目参与方式请查看\"关于\"页面"
+      "content": "本站为爱好者作品，和VirtuaReal官方没有关联，STAFF名单以及项目参与方式请查看\"关于\"页面",
+      "beian":"京ICP备2021014214号-1"
     }
   },
   "live": {

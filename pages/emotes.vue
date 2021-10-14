@@ -3,14 +3,7 @@
     <v-col v-for="emote in emotes" :key="emote.keyword" class="d-flex child-flex">
       <v-hover v-slot="{ hover }">
         <v-card min-width="125" max-width="200">
-          <v-img
-            :src="`/emotes/${emote.path}`"
-            :lazy-src="`/emotes/${emote.path}`"
-            max-height="125"
-            contain
-            aspect-ratio="1"
-            class="grey lighten-2"
-          >
+          <v-img :src="`/emotes/${emote.path}`" max-height="125" contain aspect-ratio="1" class="grey lighten-2">
             <v-fade-transition>
               <v-overlay v-if="hover" absolute color="#036358">
                 <v-alert v-if="succeed" type="success"> I'm a success alert. </v-alert>

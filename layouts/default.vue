@@ -167,6 +167,11 @@
           <div>
             <p>{{ $t('site.footer.content') }}</p>
           </div>
+          <div>
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">
+              {{ $t('site.footer.beian') }}
+            </a>
+          </div>
         </div>
       </v-footer>
     </v-main>
