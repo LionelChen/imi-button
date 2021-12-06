@@ -56,18 +56,9 @@
             "en": "nAnAnAAAAA",
             "Romaji": "nAnAnAAAAA"
           }
-        }
-      ]
-    },
-    {
-      "group_name": "wA!",
-      "group_description": {
-        "zh": "wA!"
-      },
-      "voice_list": [
-        {
+        },{
           "name": "wA",
-          "path": "10wA/wA_0.mp3", 
+          "path": "1nA/wA_0.mp3", 
           "description": {
             "zh": "wA",
             "ja": "wA",
@@ -75,104 +66,7 @@
             "Romaji": ""
           }
         }
-      ]
-    },
-    {
-      "group_name": "台词回",
-      "group_description": {
-        "zh": "台词回"
-      },
-      "voice_list": [
-        {
-          "name": "kimo",
-          "path": "3dialogue/kimo.mp3",
-          "description": {
-            "zh": "kimo",
-            "ja": "kimo",
-            "en": "kimo",
-            "Romaji": ""
-          }
-        },
-        {
-          "name": "いっぺん…死んでみる？",
-          "path": "3dialogue/changshisiyici.mp3",
-          "description": {
-            "zh": "いっぺん…死んでみる？",
-            "ja": "いっぺん…死んでみる？",
-            "en": "いっぺん…死んでみる？",
-            "Romaji": ""
-          }
-        },
-        {
-          "name": "o泡",
-          "path": "3dialogue/Opao.mp3",
-          "description": {
-            "zh": "o泡果奶",
-            "ja": "o泡果奶",
-            "en": "o泡果奶",
-            "Romaji": ""
-          }
-        },
-        {
-          "name": "你们的心就由Imi收下啦",
-          "path": "3dialogue/shouxiale.mp3",
-          "description": {
-            "zh": "你们的心就由Imi收下啦",
-            "ja": "你们的心就由Imi收下啦",
-            "en": "你们的心就由Imi收下啦",
-            "Romaji": ""
-          }
-        },
-        {
-          "name": "可爱又迷人的正面角色",
-          "path": "3dialogue/keaimirenzhengmianjuese.mp3",
-          "description": {
-            "zh": "Imi是可爱又迷人的正面角色",
-            "ja": "Imi是可爱又迷人的正面角色",
-            "en": "Imi是可爱又迷人的正面角色",
-            "Romaji": ""
-          }
-        },
-        {
-          "name": "什么时候来哄哄Imi呀",
-          "path": "3dialogue/honghongimi.mp3",
-          "description": {
-            "zh": "什么时候来哄哄Imi呀",
-            "ja": "什么时候来哄哄Imi呀",
-            "en": "什么时候来哄哄Imi呀",
-            "Romaji": ""
-          }
-        },
-        {
-          "name": "哄完别人能来哄哄Imi吗",
-          "path": "3dialogue/hongwanbierennenglaihonghongimima.mp3",
-          "description": {
-            "zh": "该哄Imi了",
-            "ja": "该哄Imi了",
-            "en": "该哄Imi了",
-            "Romaji": ""
-          }
-        },
-        {
-          "name": "好过分啊",
-          "path": "3dialogue/haoguofena.mp3",
-          "description": {
-            "zh": "好过分啊",
-            "ja": "好过分啊",
-            "en": "好过分啊",
-            "Romaji": ""
-          }
-        },
-        {
-          "name": "啊——",
-          "path": "3dialogue/aaa.mp3",
-          "description": {
-            "zh": "啊——",
-            "ja": "啊——",
-            "en": "啊——",
-            "Romaji": ""
-          }
-        }
+        
       ]
     },
     {
@@ -181,6 +75,13 @@
         "zh": "不可以休息噢"
       },
       "voice_list": [
+        {
+          "name": "该更新深按钮了",
+          "path": "2CantRest/UpdateImiButton.mp3",
+          "description": {
+            "zh": "该更新深按钮了"
+          }
+        },
         {
           "name": "你的微积分还没写完...",
           "path": "2CantRest/calculus.mp3",
@@ -266,6 +167,16 @@
         "zh": "蝴蝶吃瘪"
       },
       "voice_list": [
+        {
+          "name": "那我走？",
+          "path": "8defeated/nawozou.mp3",
+          "description": {
+            "zh": "那我走？",
+            "ja": "那我走？",
+            "en": "那我走？",
+            "Romaji": ""
+          }
+        },
         {
           "name": "啊呃呃呃呃",
           "path": "8defeated/a_e_eee.mp3",
@@ -382,6 +293,16 @@
         "zh": "hso"
       },
       "voice_list": [
+        {
+          "name": "I❤️U",
+          "path": "6hso/iluvu.mp3",
+          "description": {
+            "zh": "I❤️U",
+            "ja": "I❤️U",
+            "en": "I❤️U",
+            "Romaji": ""
+          }
+        },
         {
           "name": "想做的事",
           "path": "6hso/desired_thing.mp3",
@@ -631,11 +552,169 @@
       ]
     },
     {
+      "group_name": "台词回",
+      "group_description": {
+        "zh": "台词回"
+      },
+      "voice_list": [
+        {
+          "name": "kimo",
+          "path": "3dialogue/kimo.mp3",
+          "description": {
+            "zh": "kimo",
+            "ja": "kimo",
+            "en": "kimo",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "いっぺん…死んでみる？",
+          "path": "3dialogue/changshisiyici.mp3",
+          "description": {
+            "zh": "いっぺん…死んでみる？",
+            "ja": "いっぺん…死んでみる？",
+            "en": "いっぺん…死んでみる？",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "o泡",
+          "path": "3dialogue/Opao.mp3",
+          "description": {
+            "zh": "o泡果奶",
+            "ja": "o泡果奶",
+            "en": "o泡果奶",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "你们的心就由Imi收下啦",
+          "path": "3dialogue/shouxiale.mp3",
+          "description": {
+            "zh": "你们的心就由Imi收下啦",
+            "ja": "你们的心就由Imi收下啦",
+            "en": "你们的心就由Imi收下啦",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "可爱又迷人的正面角色",
+          "path": "3dialogue/keaimirenzhengmianjuese.mp3",
+          "description": {
+            "zh": "Imi是可爱又迷人的正面角色",
+            "ja": "Imi是可爱又迷人的正面角色",
+            "en": "Imi是可爱又迷人的正面角色",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "什么时候来哄哄Imi呀",
+          "path": "3dialogue/honghongimi.mp3",
+          "description": {
+            "zh": "什么时候来哄哄Imi呀",
+            "ja": "什么时候来哄哄Imi呀",
+            "en": "什么时候来哄哄Imi呀",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "哄完别人能来哄哄Imi吗",
+          "path": "3dialogue/hongwanbierennenglaihonghongimima.mp3",
+          "description": {
+            "zh": "该哄Imi了",
+            "ja": "该哄Imi了",
+            "en": "该哄Imi了",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "好过分啊",
+          "path": "3dialogue/haoguofena.mp3",
+          "description": {
+            "zh": "好过分啊",
+            "ja": "好过分啊",
+            "en": "好过分啊",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "啊——",
+          "path": "3dialogue/aaa.mp3",
+          "description": {
+            "zh": "啊——",
+            "ja": "啊——",
+            "en": "啊——",
+            "Romaji": ""
+          }
+        }
+      ]
+    },
+    {
       "group_name": "其他",
       "group_description": {
         "zh": "其他"
       },
       "voice_list": [
+        {
+          "name": "啊✅✅✅",
+          "path": "5others/duiduidui.mp3",
+          "description": {
+            "zh": "啊✅✅✅",
+            "ja": "啊✅✅✅",
+            "en": "啊✅✅✅",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "我要闹了",
+          "path": "5others/woyaonaole.mp3",
+          "description": {
+            "zh": "我要闹了",
+            "ja": "我要闹了",
+            "en": "我要闹了",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "书签儿~",
+          "path": "5others/shuqianer.mp3",
+          "description": {
+            "zh": "书签儿~",
+            "ja": "书签儿~",
+            "en": "书签儿~",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "哼，不管！",
+          "path": "5others/heng_buguan.mp3",
+          "description": {
+            "zh": "哼，不管！",
+            "ja": "哼，不管！",
+            "en": "哼，不管！",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "我不好说",
+          "path": "5others/hardtosay.mp3",
+          "description": {
+            "zh": "我不好说",
+            "ja": "我不好说",
+            "en": "我不好说",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "不要ttk",
+          "path": "5others/nottk.mp3",
+          "description": {
+            "zh": "不要ttk",
+            "ja": "不要ttk",
+            "en": "不要ttk",
+            "Romaji": ""
+          }
+        },
         {
           "name": "你打我",
           "path": "5others/nidawo.mp3",
