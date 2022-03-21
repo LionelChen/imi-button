@@ -1,0 +1,88 @@
+{
+    "group_name": "hso",
+    "group_description": {
+      "zh": "hso"
+    },
+    "voice_list": [
+      {
+        "name": "I❤️U",
+        "path": "6hso/iluvu.mp3",
+        "description": {
+          "zh": "I❤️U",
+          "ja": "I❤️U",
+          "en": "I❤️U",
+          "Romaji": ""
+        }
+      },
+      {
+        "name": "想做的事",
+        "path": "6hso/desired_thing.mp3",
+        "description": {
+          "zh": "想做的事",
+          "ja": "想做的事",
+          "en": "想做的事",
+          "Romaji": ""
+        }
+      },
+      {
+        "name": "多谢款待",
+        "path": "6hso/gochisousama.mp3",
+        "description": {
+          "zh": "多谢款待",
+          "ja": "ごちそうさま",
+          "en": "想做的事",
+          "Romaji": ""
+        }
+      },
+      {
+        "name": "先吃我",
+        "path": "6hso/xianchiwo.mp3",
+        "description": {
+          "zh": "先吃我",
+          "ja": "先吃我",
+          "en": "先吃我",
+          "Romaji": ""
+        }
+      },
+      {
+        "name": "喜欢吗",
+        "path": "6hso/xihuanma.mp3",
+        "description": {
+          "zh": "喜欢吗",
+          "ja": "喜欢吗",
+          "en": "喜欢吗",
+          "Romaji": ""
+        }
+      },
+      {
+        "name": "喜欢你",
+        "path": "6hso/xihuanni.mp3",
+        "description": {
+          "zh": "喜欢你",
+          "ja": "喜欢你",
+          "en": "喜欢你",
+          "Romaji": ""
+        }
+      },
+      {
+        "name": "把Imi灌醉了你们想干嘛呀",
+        "path": "6hso/drunk_0.mp3",
+        "description": {
+          "zh": "把Imi灌醉了你们想干嘛呀",
+          "ja": "把Imi灌醉了你们想干嘛呀",
+          "en": "把Imi灌醉了你们想干嘛呀",
+          "Romaji": ""
+        }
+      },
+      {
+        "name": "你们灌醉Imi是想做什么事情呀",
+        "path": "6hso/drunk_1.mp3",
+        "description": {
+          "zh": "你们灌醉Imi是想做什么事情呀",
+          "ja": "你们灌醉Imi是想做什么事情呀",
+          "en": "你们灌醉Imi是想做什么事情呀",
+          "Romaji": ""
+        }
+      }
+    ]
+  }
